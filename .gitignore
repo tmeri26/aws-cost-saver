@@ -1,0 +1,14 @@
+# Local gitignore rules for Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Ignore packaged zip files
+*.zip
+lambda/stop_instances.zip
+
+# OS files
+.DS_Store
+Thumbs.db
